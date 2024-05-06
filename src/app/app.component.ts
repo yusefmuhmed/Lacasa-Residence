@@ -5,6 +5,7 @@ import { FooterComponent } from "./shared/footer/footer.component";
 import { SocialMediaAndCopyrightsComponent } from "./shared/social-media-and-copyrights/social-media-and-copyrights.component";
 
 
+
 @Component({
     selector: 'app-root',
     standalone: true,
