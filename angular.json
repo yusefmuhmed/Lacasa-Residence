@@ -28,10 +28,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
+
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/custom.scss"
+              "src/assets/custom.scss",
+              "node_modules/remixicon/fonts/remixicon.css"
             ],
             "scripts": [],
             "server": "src/main.server.ts",
@@ -97,7 +99,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/custom.scss"
+              "src/assets/custom.scss",
+              "node_modules/remixicon/fonts/remixicon.css"
             ],
             "scripts": []
           }
