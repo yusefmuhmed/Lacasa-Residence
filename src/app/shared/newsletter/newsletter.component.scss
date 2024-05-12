@@ -1,0 +1,60 @@
+.input-group {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.form-control.with-icon {
+  padding-right: 30px;
+}
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #1c3e31
+}
+
+label{
+  width: 85%;
+}
+
+.heading{
+  color:#fdc381;
+  font-size: 35px;
+}
+
+.text{
+  color: #8f8f8f;
+  font-size: larger;
+}
+
+.colored-line {
+  background-color: #34785f;
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: -22px;
+  margin-left: -22px;
+}
+
+.padding{
+  padding: 3rem;
+}
