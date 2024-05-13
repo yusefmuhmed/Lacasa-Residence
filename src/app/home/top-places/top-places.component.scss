@@ -12,6 +12,7 @@ p {
 .price {
   color: #f2bc7d;
   font-weight: 600;
+  font-size: medium;
 }
 
 .heading {
@@ -25,10 +26,25 @@ p {
 }
 
 
-
-
-
-
 .head {
   text-align-last: center;
+}
+
+
+@media (max-width: 665px) {
+  .col-md-3{
+    display: block !important;
+    align-self: center !important;
+    text-align: -webkit-center !important;
+    width: 50% !important;
+  }
+
+  .img-fluid{
+    max-width: 100% !important;
+    height: 132px !important;
+  }
+
+  p{
+    line-height: 1 !important;
+  }
 }
