@@ -24,3 +24,22 @@ background-color: #c0a78b !important;
   background-color: #1c3e31 !important;
   color: white !important;
 }
+
+
+.aligned-button {
+  border-radius: 20% / 50% !important;
+  background-color: transparent !important;
+  border-color: #f2bc7d !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+
+.aligned-button:hover {
+  background-color: #f2bc7d !important;
+  color: white !important;
+}
+
+body{
+  background-color:  #1c3e31 !important ;
+}
