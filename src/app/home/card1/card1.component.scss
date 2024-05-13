@@ -1,10 +1,54 @@
-video{
-    width:-webkit-fill-available;
+img{
+    width:100%;
     border-radius: 10px;
-    height: 25rem;
+    height: revert-layer;;
   }
-  
+
   .card{
-    border:none;
+    border:none !important;
   }
-  
+
+  .card-body{
+    position: absolute;
+    color: white;
+    padding: inherit;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    top: unset;
+    left: unset;
+    left: unset;
+  }
+
+  .explore-btn{
+    background-color: #f2bc7d;
+    color: #224c3c;
+    border: transparent;
+    padding: 1rem 11rem;
+  }
+
+  .explore-btn:hover{
+    background-color: #224c3c;
+    color: #f2bc7d;
+  }
+
+  @media screen and (max-width: 556px) {
+
+    .explore-btn{
+      padding: 1rem 5rem;
+    }
+
+    .card-body{
+      text-align: center;
+      display: flex;
+      padding-left: 0;
+      flex-direction: row;
+       padding: 0 !important;
+    }
+
+    h1.heading{
+      width: 90%;
+    }
+
+
+  }
