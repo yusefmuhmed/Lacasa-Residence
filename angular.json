@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Lacasa-Residence": {
+    "LacasaR": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/lacasa-residence",
+            "outputPath": "dist/lacasa-r",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -28,19 +28,11 @@
             "assets": [
               "src/favicon.ico",
               "src/assets"
-
             ],
             "styles": [
-              "src/styles.scss",
-              "src/assets/custom.scss",
-              "node_modules/remixicon/fonts/remixicon.css"
+              "src/styles.scss"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -70,10 +62,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Lacasa-Residence:build:production"
+              "buildTarget": "LacasaR:build:production"
             },
             "development": {
-              "buildTarget": "Lacasa-Residence:build:development"
+              "buildTarget": "LacasaR:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +73,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Lacasa-Residence:build"
+            "buildTarget": "LacasaR:build"
           }
         },
         "test": {
@@ -98,17 +90,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "src/assets/custom.scss",
-              "node_modules/remixicon/fonts/remixicon.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
         }
       }
     }
-  },
-  "cli": {
-    "analytics": "81951568-353e-4dbd-957a-12b83c8c344f"
   }
 }
