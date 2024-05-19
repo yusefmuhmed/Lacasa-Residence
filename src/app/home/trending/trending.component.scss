@@ -1,0 +1,54 @@
+.mainpadding{
+  padding:0 130px 0 130px
+}
+
+
+.row {
+  display: flex;
+  line-height: 0.5;
+}
+
+.card {
+  background-color: inherit;
+  border: none;
+  color: #fff;
+}
+
+.card img {
+  border-radius: 8px;
+}
+
+.price {
+  color: #FDC381;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-title h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.btn-see-more {
+  display: block;
+  margin: 2rem auto;
+  color: #fff;
+  border-color: #fff;
+}
+
+img.card-img-top {
+    width: 278px;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}

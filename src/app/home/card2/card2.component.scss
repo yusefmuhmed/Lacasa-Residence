@@ -1,9 +1,18 @@
 video{
-  width:-webkit-fill-available;
+  width: 100%;
   border-radius: 10px;
-  height: 25rem;
+  height: 500px;
 }
 
 .card{
   border:none;
+}
+
+
+.mainpadding{
+  padding:104px 80px 52px 80px;
+}
+
+video:focus-visible{
+  border-color: transparent;
 }

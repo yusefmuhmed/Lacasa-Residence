@@ -29,17 +29,18 @@ background-color: #c0a78b !important;
 .aligned-button {
   border-radius: 20% / 50% !important;
   background-color: transparent !important;
-  border-color: #f2bc7d !important;
+  border-color: #FDC381 !important; 
   padding-right: 20px !important;
   padding-left: 20px !important;
 }
 
 
 .aligned-button:hover {
-  background-color: #f2bc7d !important;
+  background-color: #FDC381 !important;
   color: white !important;
 }
 
 body{
   background: linear-gradient(to right, #1b3c2f, #1e4335) !important;
+  font-family:"Signika" !important ;
 }
