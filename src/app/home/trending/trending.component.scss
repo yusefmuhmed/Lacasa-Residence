@@ -8,16 +8,42 @@ body {
   padding: 0 130px;
 }
 
+
+
+
 .section-title {
   margin-top: 3rem;
-  text-align: -webkit-left;
   margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
 }
 
 .section-title h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  color:#fdc381;
+  color: #fdc381;
+  display: inline-block;
+  padding-right: 1rem;
+  margin-top: -10px;
+}
+
+.title-underline {
+  position: absolute;
+  top: 18%;
+  margin-left: 11rem;
+  left: 0;
+  width: 73%;
+  border-top: 2px solid #fdc381;
+  z-index: -1;
+}
+.title-underline2 {
+  position: absolute;
+  top: 22%;
+  margin-left: 11rem;
+  left: 0;
+  width: 73%;
+  border-top: 2px solid #fdc381;
+  z-index: -1;
 }
 
 .section-title p {
