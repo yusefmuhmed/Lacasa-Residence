@@ -31,7 +31,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/assets/custom.scss"
+              "src/assets/custom.scss",
+              "node_modules/remixicon/fonts/remixicon.css"
             ],
             "scripts": []
           },
