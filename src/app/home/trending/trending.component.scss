@@ -9,18 +9,21 @@ body {
 }
 
 .section-title {
-  text-align: center;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  text-align: -webkit-left;
+  margin-bottom: 1rem;
 }
 
 .section-title h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  color:#fdc381;
 }
 
 .section-title p {
   font-size: 1.2rem;
   margin-top: 0.5rem;
+  color: #727a77;
 }
 
 .row {
@@ -41,7 +44,6 @@ body {
 
 .card-title {
   font-size: 1.25rem;
-  margin-top: 1rem;
 }
 
 .card-text i {
@@ -49,7 +51,7 @@ body {
 }
 
 .price {
-  color: #FDC381;
+  color: #fdc381;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -71,4 +73,42 @@ img.card-img-top {
   height: 300px;
   margin: 0;
   padding: 0;
+}
+
+.currency {
+  color: white;
+  font-size: small;
+}
+
+.card-body {
+  line-height: 0.4;
+  flex: 1 1 auto;
+  padding-left: 10px !important;
+}
+
+.star{
+  color: #fdc381;
+}
+.card-body {
+  padding: unset !important;
+  padding-left: 10px !important;
+}
+
+.aligned-button {
+  border-radius: 20% / 50% !important;
+  background-color: transparent !important;
+  border-color: #FDC381 !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+
+.aligned-button:hover {
+  background-color: #FDC381 !important;
+  color: white !important;
+}
+
+.align-col-btn{
+  text-align-last: right;
+  padding-right: 3.2rem;
 }
