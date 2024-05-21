@@ -20,11 +20,15 @@
         <div class="form-row">
           <div class="col-md-3 mb-3">
             <label for="selectArea" class="sr-only">Select Area</label>
-            <select id="selectArea" class="form-control form-control-lg">
-              <option selected>Select Area</option>
-              <!-- Add more options as needed -->
-            </select>
+            <div class="input-group">
+              <span class="input-icon ri-map-pin-2-fill"></span>
+              <select id="selectArea" class="form-control form-control-lg with-icon">
+                <option selected>Select Area</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
           </div>
+
           <div class="col-md-2 mb-3">
             <label for="fromDate" class="sr-only">From Date</label>
             <input type="date" id="fromDate" class="form-control form-control-lg" placeholder="From">
@@ -35,10 +39,13 @@
           </div>
           <div class="col-md-3 mb-3">
             <label for="guests" class="sr-only">Number of Guests</label>
-            <select id="guests" class="form-control form-control-lg">
-              <option selected>Number of Guests</option>
-              <!-- Add more options as needed -->
-            </select>
+            <div class="input-group">
+              <span class="input-icon ri-team-fill"></span>
+              <select id="guests" class="form-control form-control-lg">
+                <option selected>Number of Guests</option>
+                <!-- Add more options as needed -->
+              </select>
+            </div>
           </div>
           <div class="col-md-2">
             <button type="submit" class="btn btn-success btn-lg btn-block">Search</button>

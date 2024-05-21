@@ -97,3 +97,61 @@ p{
 .col-md-3.mb-3 , .col-md-2.mb-3{
   padding-right: 2rem;
 }
+
+
+
+
+.input-group {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  pointer-events: none;
+  color: #1c3e31;
+  font-size: 1.5rem;
+  left: 7px;
+}
+
+select,option{
+  font-size: 18px;
+  font-weight: 100;
+  padding-left: 30px;
+}
+
+input{
+  font-size: 18px;
+  font-weight: 100;
+}
+
+select#selectArea , select#guests  {
+  border-radius: 8px;
+}
+
+
+.form-control.with-icon {
+  padding-right: 30px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  line-height: 3rem;
+  text-align: center;
+  pointer-events: none;
+  color: #1c3e31;
+}
+
+label {
+  width: 60%;
+  color: white;
+}
