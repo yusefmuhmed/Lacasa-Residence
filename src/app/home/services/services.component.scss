@@ -64,5 +64,26 @@ border-radius: 8px;
   border-radius: 50%;
   color: #224c3c;
   background-color: #e4c7a6;
-  padding: 1rem;
+  padding: 10px;
+  font-size: 2.2rem;
+  cursor: pointer;
+}
+
+
+.icon:hover{
+  color: #e4c7a6;
+  background-color: #224c3c;
+
+}
+
+.d-flex.flex-column{
+  padding-right: 6rem !important;
+}
+
+.paragraph-width{
+  width: 25rem;
+}
+
+.col.icon-circle{
+  text-align-last: end;
 }
